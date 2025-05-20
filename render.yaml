@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: payrollBilling
+    env: java
+    plan: free
+    buildCommand: ""
+    startCommand: java -jar payrollBilling.jar
